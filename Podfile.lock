@@ -1,0 +1,24 @@
+PODS:
+  - ChromaColorPicker (2.0.2)
+  - CropViewController (2.5.2)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - ChromaColorPicker
+  - CropViewController
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - ChromaColorPicker
+    - CropViewController
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  ChromaColorPicker: 307585f2dc23d4d72f24cad320c1e08825cb5c09
+  CropViewController: 1aac40093c5739e60d992b04724a55d12a689a4c
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 24e5d1013f73c609fd5dfb53217208299a361712
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		684987B0ACD3DCBFD259CDBA /* Pods_ColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6710406582B43B29EC641A /* Pods_ColorPicker.framework */; };
+		84742E0F2469CDA9006622BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84742E0E2469CDA9006622BA /* AppDelegate.swift */; };
+		84742E132469CDA9006622BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84742E122469CDA9006622BA /* ViewController.swift */; };
+		84742E162469CDA9006622BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84742E142469CDA9006622BA /* Main.storyboard */; };
+		84742E182469CDB8006622BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84742E172469CDB8006622BA /* Assets.xcassets */; };
+		84742E1B2469CDB8006622BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84742E192469CDB8006622BA /* LaunchScreen.storyboard */; };
+		847F2320246A86DF0002EA15 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F231F246A86DE0002EA15 /* PreviewViewController.swift */; };
+		847F2322246A96310002EA15 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F2321246A96310002EA15 /* FilterViewController.swift */; };
+		847F2324246AE9810002EA15 /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F2323246AE9800002EA15 /* GradientSlider.swift */; };
+		84868372246BC09400E876E3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84868371246BC09400E876E3 /* ResultViewController.swift */; };
+		8498FEBB2470522200AADDC3 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8498FEBA2470522200AADDC3 /* ColorPickerViewController.swift */; };
+		8498FEBD2470526200AADDC3 /* colorPalette.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8498FEBC2470526200AADDC3 /* colorPalette.plist */; };
+		84BF12D42475E17A00C5CF5F /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF12D02475E17900C5CF5F /* DrawView.swift */; };
+		84BF12D52475E17A00C5CF5F /* ColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF12D12475E17900C5CF5F /* ColorCell.swift */; };
+		84BF12D62475E17A00C5CF5F /* ColorBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF12D22475E17A00C5CF5F /* ColorBezierPath.swift */; };
+		84BF12D72475E17A00C5CF5F /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF12D32475E17A00C5CF5F /* Utils.swift */; };
+		84BF12D92476237A00C5CF5F /* BeforeAfterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF12D82476237A00C5CF5F /* BeforeAfterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B6710406582B43B29EC641A /* Pods_ColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C7F4C924EB4BBDB2AA80118 /* Pods-ColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPicker.release.xcconfig"; path = "Target Support Files/Pods-ColorPicker/Pods-ColorPicker.release.xcconfig"; sourceTree = "<group>"; };
+		84742E0B2469CDA9006622BA /* ColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84742E0E2469CDA9006622BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84742E122469CDA9006622BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		84742E152469CDA9006622BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84742E172469CDB8006622BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84742E1A2469CDB8006622BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84742E1C2469CDB8006622BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847F231F246A86DE0002EA15 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		847F2321246A96310002EA15 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		847F2323246AE9800002EA15 /* GradientSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		84868371246BC09400E876E3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		8498FEBA2470522200AADDC3 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		8498FEBC2470526200AADDC3 /* colorPalette.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = colorPalette.plist; sourceTree = "<group>"; };
+		84BF12D02475E17900C5CF5F /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		84BF12D12475E17900C5CF5F /* ColorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCell.swift; sourceTree = "<group>"; };
+		84BF12D22475E17A00C5CF5F /* ColorBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorBezierPath.swift; sourceTree = "<group>"; };
+		84BF12D32475E17A00C5CF5F /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		84BF12D82476237A00C5CF5F /* BeforeAfterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeforeAfterView.swift; sourceTree = "<group>"; };
+		DD85B70D6E936374CD353C07 /* Pods-ColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorPicker.debug.xcconfig"; path = "Target Support Files/Pods-ColorPicker/Pods-ColorPicker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84742E082469CDA9006622BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684987B0ACD3DCBFD259CDBA /* Pods_ColorPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84742E022469CDA9006622BA = {
+			isa = PBXGroup;
+			children = (
+				84742E0D2469CDA9006622BA /* ColorPicker */,
+				84742E0C2469CDA9006622BA /* Products */,
+				B2CF3A68BE24CA51CE8E7045 /* Pods */,
+				D55E40A70954E3EE1B61540B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84742E0C2469CDA9006622BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84742E0B2469CDA9006622BA /* ColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84742E0D2469CDA9006622BA /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				84742E242469D658006622BA /* Controller */,
+				84742E232469D63F006622BA /* Model */,
+				84742E222469D637006622BA /* View */,
+				84742E0E2469CDA9006622BA /* AppDelegate.swift */,
+				8498FEBC2470526200AADDC3 /* colorPalette.plist */,
+				84742E142469CDA9006622BA /* Main.storyboard */,
+				84742E172469CDB8006622BA /* Assets.xcassets */,
+				84742E192469CDB8006622BA /* LaunchScreen.storyboard */,
+				84742E1C2469CDB8006622BA /* Info.plist */,
+			);
+			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		84742E222469D637006622BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84BF12D22475E17A00C5CF5F /* ColorBezierPath.swift */,
+				84BF12D12475E17900C5CF5F /* ColorCell.swift */,
+				84BF12D02475E17900C5CF5F /* DrawView.swift */,
+				84BF12D32475E17A00C5CF5F /* Utils.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		84742E232469D63F006622BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				847F2323246AE9800002EA15 /* GradientSlider.swift */,
+				84BF12D82476237A00C5CF5F /* BeforeAfterView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84742E242469D658006622BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8498FEBA2470522200AADDC3 /* ColorPickerViewController.swift */,
+				84742E122469CDA9006622BA /* ViewController.swift */,
+				847F231F246A86DE0002EA15 /* PreviewViewController.swift */,
+				847F2321246A96310002EA15 /* FilterViewController.swift */,
+				84868371246BC09400E876E3 /* ResultViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B2CF3A68BE24CA51CE8E7045 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD85B70D6E936374CD353C07 /* Pods-ColorPicker.debug.xcconfig */,
+				7C7F4C924EB4BBDB2AA80118 /* Pods-ColorPicker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D55E40A70954E3EE1B61540B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6710406582B43B29EC641A /* Pods_ColorPicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84742E0A2469CDA9006622BA /* ColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84742E1F2469CDB8006622BA /* Build configuration list for PBXNativeTarget "ColorPicker" */;
+			buildPhases = (
+				5443861EB9F28565E9A1674B /* [CP] Check Pods Manifest.lock */,
+				84742E072469CDA9006622BA /* Sources */,
+				84742E082469CDA9006622BA /* Frameworks */,
+				84742E092469CDA9006622BA /* Resources */,
+				7D5E4E015E371E81A885CEFE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorPicker;
+			productName = ColorPicker;
+			productReference = 84742E0B2469CDA9006622BA /* ColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84742E032469CDA9006622BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84742E0A2469CDA9006622BA = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 84742E062469CDA9006622BA /* Build configuration list for PBXProject "ColorPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84742E022469CDA9006622BA;
+			productRefGroup = 84742E0C2469CDA9006622BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84742E0A2469CDA9006622BA /* ColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84742E092469CDA9006622BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84742E1B2469CDB8006622BA /* LaunchScreen.storyboard in Resources */,
+				84742E182469CDB8006622BA /* Assets.xcassets in Resources */,
+				8498FEBD2470526200AADDC3 /* colorPalette.plist in Resources */,
+				84742E162469CDA9006622BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5443861EB9F28565E9A1674B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColorPicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D5E4E015E371E81A885CEFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorPicker/Pods-ColorPicker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColorPicker/Pods-ColorPicker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColorPicker/Pods-ColorPicker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84742E072469CDA9006622BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84742E132469CDA9006622BA /* ViewController.swift in Sources */,
+				84BF12D62475E17A00C5CF5F /* ColorBezierPath.swift in Sources */,
+				84742E0F2469CDA9006622BA /* AppDelegate.swift in Sources */,
+				84BF12D52475E17A00C5CF5F /* ColorCell.swift in Sources */,
+				84BF12D92476237A00C5CF5F /* BeforeAfterView.swift in Sources */,
+				84BF12D42475E17A00C5CF5F /* DrawView.swift in Sources */,
+				847F2322246A96310002EA15 /* FilterViewController.swift in Sources */,
+				8498FEBB2470522200AADDC3 /* ColorPickerViewController.swift in Sources */,
+				84BF12D72475E17A00C5CF5F /* Utils.swift in Sources */,
+				847F2320246A86DF0002EA15 /* PreviewViewController.swift in Sources */,
+				847F2324246AE9810002EA15 /* GradientSlider.swift in Sources */,
+				84868372246BC09400E876E3 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84742E142469CDA9006622BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84742E152469CDA9006622BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84742E192469CDB8006622BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84742E1A2469CDB8006622BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84742E1D2469CDB8006622BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84742E1E2469CDB8006622BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84742E202469CDB8006622BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD85B70D6E936374CD353C07 /* Pods-ColorPicker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4865JN8739;
+				INFOPLIST_FILE = ColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ghislain.veriFace.VeriFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84742E212469CDB8006622BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7F4C924EB4BBDB2AA80118 /* Pods-ColorPicker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4865JN8739;
+				INFOPLIST_FILE = ColorPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ghislain.veriFace.VeriFace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84742E062469CDA9006622BA /* Build configuration list for PBXProject "ColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84742E1D2469CDB8006622BA /* Debug */,
+				84742E1E2469CDB8006622BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84742E1F2469CDB8006622BA /* Build configuration list for PBXNativeTarget "ColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84742E202469CDB8006622BA /* Debug */,
+				84742E212469CDB8006622BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84742E032469CDA9006622BA /* Project object */;
+}
